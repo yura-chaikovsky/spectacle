@@ -28,6 +28,12 @@
 
 .swagger-operation-path {
   @include named-section($msg-swagger-section-operation-path);
+  font-family: monospace;
+  font-size: 130%;
+}
+
+.operation-method {
+  font-weight: 600;
 }
 
 .swagger-operation-description {
@@ -243,8 +249,9 @@ table.table {
 
 
 .json-property-type {
-  // font-style: italic;
-  // font-weight: 100;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 90%;
 }
 
 .json-property-format {
@@ -258,11 +265,11 @@ table.table {
   // font-size: small;
 
   &:before {
-    content: 'enum: [';
+    content: 'enum ∈ {';
     // color: $dark-gray;
   }
   &:after {
-    content: ']';
+    content: '}';
     // color: $dark-gray;
   }
 }
@@ -305,6 +312,7 @@ table.table {
   // &:before, &:after {
   //   content: "\""
   // }
+  font-style: italic;
   font-weight: lighter;
   font-size: small;
 }
