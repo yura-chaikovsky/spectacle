@@ -36,6 +36,14 @@
   font-weight: 600;
 }
 
+.swagger-operation-deprecated *{
+  text-decoration: line-through;
+}
+
+.swagger-operation-deprecated-label {
+  @include named-label($msg-swagger-section-operation-path-deprecated, $black);
+}
+
 .swagger-operation-description {
   @include named-section($msg-swagger-section-operation-description);
 }
