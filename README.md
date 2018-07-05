@@ -1,4 +1,6 @@
-# Spectacle
+# Spectacle for Dominion REST API framework
+
+> **DISCLAIMER!** This repo is customization of Spectacle generator for needs of [Dominion REST API framework](https://github.com/yura-chaikovsky/dominion). Please use [project's original repo](https://github.com/sourcey/spectacle) for any needs. 
 
 Spectacle generates beautiful static HTML5 documentation from [OpenAPI](https://openapis.org)/[Swagger](http://swagger.io) 2.0 API specifications.
 
